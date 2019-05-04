@@ -1,0 +1,33 @@
+<ul id = "people"></ul>
+<script>
+var person = {
+    "name" = "Hieu",
+    "age" = 27,
+    "address": {
+           "street":" 1 Mystreet St",
+           "city"  :" Gotham"
+           },
+    children:["Stormy","Aegon"]
+    }
+    console.log(person.children[2]);
+var people = [
+    {
+    "name" : "Jon Snow",
+    "age"  : 32
+    }
+    ,
+    {
+    "name" : "Bran",
+    "age"  : 17
+    }
+    ]
+    console.log(people[1].age);
+    
+    for( var i=0;i< people.length; i++)
+    {
+    // console.log(people[i].name);
+    output += '<li>' +people[i].anem + '</li>;
+    }
+    document.getElementById('people;).innerHTML = output;
+    
+</script>
